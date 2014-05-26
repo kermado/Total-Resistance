@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <author>Unknown</author>
+            <authoring_tool>Cheetah3D</authoring_tool>
+            <comments>http://www.cheetah3d.com</comments>
+            <copyright>Unknown</copyright>
+        </contributor>
+        <created>2014-01-27T14:00:44Z</created>
+        <modified>2014-01-27T14:00:44Z</modified>
+        <unit meter="1.0" name="meter"/>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_cameras>
+        <camera id="ID44311696-persp">
+            <optics>
+                <technique_common>
+                    <perspective>
+                        <yfov>40.000000</yfov>
+                        <aspect_ratio>0.6</aspect_ratio>
+                        <znear>0.010000</znear>
+                        <zfar>1000.000000</zfar>
+                    </perspective>
+                </technique_common>
+            </optics>
+        </camera>
+    </library_cameras>
+    <library_materials>
+        <material id="material0" name="Dark_Metal">
+            <instance_effect url="#material0-fx"/>
+        </material>
+        <material id="material1" name="Friendly_Color">
+            <instance_effect url="#material1-fx"/>
+        </material>
+        <material id="material2" name="Medium_Metal">
+            <instance_effect url="#material2-fx"/>
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="material0-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <emission>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </emission>
+                        <ambient>
+                            <color>0.113600 0.113600 0.113600 1.000000</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.113600 0.113600 0.113600 1.000000</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </specular>
+                        <shininess>
+                            <float>80.000000</float>
+                        </shininess>
+                        <reflective>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </reflective>
+                        <reflectivity>
+                            <float>1</float>
+                        </reflectivity>
+                        <transparent>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </transparent>
+                        <transparency>
+                            <float>1</float>
+                        </transparency>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="material1-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <emission>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </emission>
+                        <ambient>
+                            <color>0.157084 0.301301 0.642279 1.000000</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.157084 0.301301 0.642279 1.000000</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </specular>
+                        <shininess>
+                            <float>80.000000</float>
+                        </shininess>
+                        <reflective>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </reflective>
+                        <reflectivity>
+                            <float>1</float>
+                        </reflectivity>
+                        <transparent>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </transparent>
+                        <transparency>
+                            <float>1</float>
+                        </transparency>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="material2-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <emission>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </emission>
+                        <ambient>
+                            <color>0.173549 0.173549 0.173549 1.000000</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.173549 0.173549 0.173549 1.000000</color>
+                        </diffuse>
+                        <specular>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </specular>
+                        <shininess>
+                            <float>80.000000</float>
+                        </shininess>
+                        <reflective>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </reflective>
+                        <reflectivity>
+                            <float>1</float>
+                        </reflectivity>
+                        <transparent>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </transparent>
+                        <transparency>
+                            <float>1</float>
+                        </transparency>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="ID44421712-mesh" name="ID44421712">
+            <mesh>
+                <source id="ID44421712-mesh-verts" name="verts">
+                    <float_array id="ID44421712-mesh-verts-array" count="24">-0.500000 -0.500000 0.500000 -0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 -0.500000 -0.500000 -0.500000 -0.500000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID44421712-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID44421712-mesh-normal" name="normal">
+                    <float_array id="ID44421712-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID44421712-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID44421712-mesh-uv1" name="uv1">
+                    <float_array id="ID44421712-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID44421712-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID44421712-mesh-vertices">
+                    <input semantic="POSITION" source="#ID44421712-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID44421712-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID44421712-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID44421712-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID43630560-mesh" name="ID43630560">
+            <mesh>
+                <source id="ID43630560-mesh-verts" name="verts">
+                    <float_array id="ID43630560-mesh-verts-array" count="36">-0.500000 -0.500000 0.500000 -0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 -0.500000 -0.500000 -0.500000 -0.500000 -0.253334 0.788977 0.253334 -0.253334 0.788977 -0.253334 0.253334 0.788977 -0.253334 0.253334 0.788977 0.253334 </float_array>
+                    <technique_common>
+                        <accessor count="12" offset="0" source="#ID43630560-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43630560-mesh-normal" name="normal">
+                    <float_array id="ID43630560-mesh-normal-array" count="120">0.000000 0.000000 1.000000 0.000000 0.324615 0.880296 0.000000 0.324615 0.880296 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.324615 -0.880296 0.000000 0.324615 -0.880296 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -0.880296 0.324615 0.000000 -0.880296 0.324615 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.880296 0.324615 0.000000 0.880296 0.324615 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -0.880296 0.324615 0.000000 -0.880296 0.324615 0.000000 -0.760593 0.649229 0.000000 -0.760593 0.649229 0.000000 0.000000 0.324615 -0.880296 0.000000 0.324615 -0.880296 0.000000 0.649229 -0.760593 0.000000 0.649229 -0.760593 0.880296 0.324615 0.000000 0.880296 0.324615 0.000000 0.760593 0.649229 0.000000 0.760593 0.649229 0.000000 0.000000 0.324615 0.880296 0.000000 0.324615 0.880296 0.000000 0.649229 0.760593 0.000000 0.649229 0.760593 </float_array>
+                    <technique_common>
+                        <accessor count="40" offset="0" source="#ID43630560-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43630560-mesh-uv1" name="uv1">
+                    <float_array id="ID43630560-mesh-uv1-array" count="80">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="40" offset="0" source="#ID43630560-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID43630560-mesh-vertices">
+                    <input semantic="POSITION" source="#ID43630560-mesh-verts"/>
+                </vertices>
+                <polygons count="10" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID43630560-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID43630560-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID43630560-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>11 19 10 18 9 17 8 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                    <p>8 27 9 26 6 25 1 24 </p>
+                    <p>9 31 10 30 5 29 6 28 </p>
+                    <p>10 35 11 34 2 33 5 32 </p>
+                    <p>11 39 8 38 1 37 2 36 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID43693552-mesh" name="ID43693552">
+            <mesh>
+                <source id="ID43693552-mesh-verts" name="verts">
+                    <float_array id="ID43693552-mesh-verts-array" count="24">-0.500000 -0.500000 0.500000 -0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 -0.500000 -0.500000 -0.500000 -0.500000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID43693552-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43693552-mesh-normal" name="normal">
+                    <float_array id="ID43693552-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID43693552-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43693552-mesh-uv1" name="uv1">
+                    <float_array id="ID43693552-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID43693552-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID43693552-mesh-vertices">
+                    <input semantic="POSITION" source="#ID43693552-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID43693552-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID43693552-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID43693552-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID43739072-mesh" name="ID43739072">
+            <mesh>
+                <source id="ID43739072-mesh-verts" name="verts">
+                    <float_array id="ID43739072-mesh-verts-array" count="36">-0.500000 -0.500000 0.500000 -0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 -0.500000 -0.500000 -0.500000 -0.500000 -0.399997 0.690098 0.370828 -0.399997 0.690098 -0.370828 0.399997 0.690098 -0.370828 0.399997 0.690098 0.370828 </float_array>
+                    <technique_common>
+                        <accessor count="12" offset="0" source="#ID43739072-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43739072-mesh-normal" name="normal">
+                    <float_array id="ID43739072-mesh-normal-array" count="120">0.000000 0.000000 1.000000 0.000000 0.281014 0.913559 0.000000 0.281014 0.913559 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.281014 -0.913559 0.000000 0.281014 -0.913559 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -0.942506 0.232784 0.000000 -0.942506 0.232784 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.942506 0.232784 -0.000000 0.942506 0.232784 -0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -0.942506 0.232784 0.000000 -0.942506 0.232784 0.000000 -0.885012 0.465569 0.000000 -0.885012 0.465569 0.000000 0.000000 0.281014 -0.913559 0.000000 0.281014 -0.913559 0.000000 0.562029 -0.827118 0.000000 0.562029 -0.827118 0.942506 0.232784 -0.000000 0.942506 0.232784 -0.000000 0.885012 0.465569 -0.000000 0.885012 0.465569 -0.000000 0.000000 0.281014 0.913559 0.000000 0.281014 0.913559 0.000000 0.562029 0.827118 0.000000 0.562029 0.827118 </float_array>
+                    <technique_common>
+                        <accessor count="40" offset="0" source="#ID43739072-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43739072-mesh-uv1" name="uv1">
+                    <float_array id="ID43739072-mesh-uv1-array" count="80">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="40" offset="0" source="#ID43739072-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID43739072-mesh-vertices">
+                    <input semantic="POSITION" source="#ID43739072-mesh-verts"/>
+                </vertices>
+                <polygons count="10" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID43739072-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID43739072-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID43739072-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>11 19 10 18 9 17 8 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                    <p>8 27 9 26 6 25 1 24 </p>
+                    <p>9 31 10 30 5 29 6 28 </p>
+                    <p>10 35 11 34 2 33 5 32 </p>
+                    <p>11 39 8 38 1 37 2 36 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID43784000-mesh" name="ID43784000">
+            <mesh>
+                <source id="ID43784000-mesh-verts" name="verts">
+                    <float_array id="ID43784000-mesh-verts-array" count="36">-0.500000 -0.500000 0.500000 -0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 -0.500000 -0.500000 -0.500000 -0.500000 -0.399997 0.690098 0.370828 -0.399997 0.690098 -0.370828 0.399997 0.690098 -0.370828 0.399997 0.690098 0.370828 </float_array>
+                    <technique_common>
+                        <accessor count="12" offset="0" source="#ID43784000-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43784000-mesh-normal" name="normal">
+                    <float_array id="ID43784000-mesh-normal-array" count="120">0.000000 0.000000 1.000000 0.000000 0.281014 0.913559 0.000000 0.281014 0.913559 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.281014 -0.913559 0.000000 0.281014 -0.913559 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -0.942506 0.232784 0.000000 -0.942506 0.232784 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.942506 0.232784 -0.000000 0.942506 0.232784 -0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -0.942506 0.232784 0.000000 -0.942506 0.232784 0.000000 -0.885012 0.465569 0.000000 -0.885012 0.465569 0.000000 0.000000 0.281014 -0.913559 0.000000 0.281014 -0.913559 0.000000 0.562029 -0.827118 0.000000 0.562029 -0.827118 0.942506 0.232784 -0.000000 0.942506 0.232784 -0.000000 0.885012 0.465569 -0.000000 0.885012 0.465569 -0.000000 0.000000 0.281014 0.913559 0.000000 0.281014 0.913559 0.000000 0.562029 0.827118 0.000000 0.562029 0.827118 </float_array>
+                    <technique_common>
+                        <accessor count="40" offset="0" source="#ID43784000-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43784000-mesh-uv1" name="uv1">
+                    <float_array id="ID43784000-mesh-uv1-array" count="80">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="40" offset="0" source="#ID43784000-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID43784000-mesh-vertices">
+                    <input semantic="POSITION" source="#ID43784000-mesh-verts"/>
+                </vertices>
+                <polygons count="10" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID43784000-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID43784000-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID43784000-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>11 19 10 18 9 17 8 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                    <p>8 27 9 26 6 25 1 24 </p>
+                    <p>9 31 10 30 5 29 6 28 </p>
+                    <p>10 35 11 34 2 33 5 32 </p>
+                    <p>11 39 8 38 1 37 2 36 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID43828928-mesh" name="ID43828928">
+            <mesh>
+                <source id="ID43828928-mesh-verts" name="verts">
+                    <float_array id="ID43828928-mesh-verts-array" count="24">-0.500000 -0.500000 0.500000 -0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 -0.500000 -0.500000 -0.500000 -0.500000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID43828928-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43828928-mesh-normal" name="normal">
+                    <float_array id="ID43828928-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID43828928-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43828928-mesh-uv1" name="uv1">
+                    <float_array id="ID43828928-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID43828928-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID43828928-mesh-vertices">
+                    <input semantic="POSITION" source="#ID43828928-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID43828928-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID43828928-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID43828928-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID43899216-mesh" name="ID43899216">
+            <mesh>
+                <source id="ID43899216-mesh-verts" name="verts">
+                    <float_array id="ID43899216-mesh-verts-array" count="48">-0.500000 -0.500000 0.500000 -0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 -0.500000 -0.500000 -0.500000 -0.500000 -0.278667 -0.278597 0.499997 -0.278667 0.278737 0.499997 0.278667 0.278737 0.499997 0.278667 -0.278597 0.499997 -0.222933 -0.222835 -0.271345 -0.222933 0.223032 -0.271345 0.222933 0.223032 -0.271345 0.222933 -0.222835 -0.271345 </float_array>
+                    <technique_common>
+                        <accessor count="16" offset="0" source="#ID43899216-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43899216-mesh-normal" name="normal">
+                    <float_array id="ID43899216-mesh-normal-array" count="168">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000006 0.000006 1.000000 0.000006 -0.000006 1.000000 0.000006 -0.000006 1.000000 0.000006 0.000006 1.000000 0.000006 -0.000006 1.000000 -0.000006 -0.000006 1.000000 -0.000006 -0.000006 1.000000 0.000006 -0.000006 1.000000 -0.000006 -0.000006 1.000000 -0.000006 0.000006 1.000000 -0.000006 0.000006 1.000000 -0.000006 -0.000006 1.000000 -0.000006 0.000006 1.000000 0.000006 0.000006 1.000000 0.000006 0.000006 1.000000 -0.000006 0.000006 1.000000 0.997400 0.000000 0.072067 0.997400 0.000000 0.072067 0.997400 0.000000 0.072067 0.997400 0.000000 0.072067 0.000000 -0.997402 0.072031 0.000000 -0.997402 0.072031 0.000000 -0.997402 0.072031 0.000000 -0.997402 0.072031 -0.997400 0.000000 0.072067 -0.997400 0.000000 0.072067 -0.997400 0.000000 0.072067 -0.997400 0.000000 0.072067 -0.000000 0.997397 0.072103 -0.000000 0.997397 0.072103 -0.000000 0.997397 0.072103 -0.000000 0.997397 0.072103 </float_array>
+                    <technique_common>
+                        <accessor count="56" offset="0" source="#ID43899216-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43899216-mesh-uv1" name="uv1">
+                    <float_array id="ID43899216-mesh-uv1-array" count="112">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="56" offset="0" source="#ID43899216-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID43899216-mesh-vertices">
+                    <input semantic="POSITION" source="#ID43899216-mesh-verts"/>
+                </vertices>
+                <polygons count="14" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID43899216-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID43899216-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID43899216-mesh-uv1" set="0"/>
+                    <p>15 3 14 2 13 1 12 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                    <p>8 27 9 26 1 25 0 24 </p>
+                    <p>9 31 10 30 2 29 1 28 </p>
+                    <p>10 35 11 34 3 33 2 32 </p>
+                    <p>11 39 8 38 0 37 3 36 </p>
+                    <p>12 43 13 42 9 41 8 40 </p>
+                    <p>13 47 14 46 10 45 9 44 </p>
+                    <p>14 51 15 50 11 49 10 48 </p>
+                    <p>15 55 12 54 8 53 11 52 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID43944896-mesh" name="ID43944896">
+            <mesh>
+                <source id="ID43944896-mesh-verts" name="verts">
+                    <float_array id="ID43944896-mesh-verts-array" count="48">-0.500000 -0.500000 0.500000 -0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 -0.500000 -0.500000 -0.500000 -0.500000 -0.278667 -0.278597 0.499997 -0.278667 0.278737 0.499997 0.278667 0.278737 0.499997 0.278667 -0.278597 0.499997 -0.222933 -0.222835 -0.271345 -0.222933 0.223032 -0.271345 0.222933 0.223032 -0.271345 0.222933 -0.222835 -0.271345 </float_array>
+                    <technique_common>
+                        <accessor count="16" offset="0" source="#ID43944896-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43944896-mesh-normal" name="normal">
+                    <float_array id="ID43944896-mesh-normal-array" count="168">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000006 0.000006 1.000000 0.000006 -0.000006 1.000000 0.000006 -0.000006 1.000000 0.000006 0.000006 1.000000 0.000006 -0.000006 1.000000 -0.000006 -0.000006 1.000000 -0.000006 -0.000006 1.000000 0.000006 -0.000006 1.000000 -0.000006 -0.000006 1.000000 -0.000006 0.000006 1.000000 -0.000006 0.000006 1.000000 -0.000006 -0.000006 1.000000 -0.000006 0.000006 1.000000 0.000006 0.000006 1.000000 0.000006 0.000006 1.000000 -0.000006 0.000006 1.000000 0.997400 0.000000 0.072067 0.997400 0.000000 0.072067 0.997400 0.000000 0.072067 0.997400 0.000000 0.072067 0.000000 -0.997402 0.072031 0.000000 -0.997402 0.072031 0.000000 -0.997402 0.072031 0.000000 -0.997402 0.072031 -0.997400 0.000000 0.072067 -0.997400 0.000000 0.072067 -0.997400 0.000000 0.072067 -0.997400 0.000000 0.072067 -0.000000 0.997397 0.072103 -0.000000 0.997397 0.072103 -0.000000 0.997397 0.072103 -0.000000 0.997397 0.072103 </float_array>
+                    <technique_common>
+                        <accessor count="56" offset="0" source="#ID43944896-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43944896-mesh-uv1" name="uv1">
+                    <float_array id="ID43944896-mesh-uv1-array" count="112">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="56" offset="0" source="#ID43944896-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID43944896-mesh-vertices">
+                    <input semantic="POSITION" source="#ID43944896-mesh-verts"/>
+                </vertices>
+                <polygons count="14" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID43944896-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID43944896-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID43944896-mesh-uv1" set="0"/>
+                    <p>15 3 14 2 13 1 12 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                    <p>8 27 9 26 1 25 0 24 </p>
+                    <p>9 31 10 30 2 29 1 28 </p>
+                    <p>10 35 11 34 3 33 2 32 </p>
+                    <p>11 39 8 38 0 37 3 36 </p>
+                    <p>12 43 13 42 9 41 8 40 </p>
+                    <p>13 47 14 46 10 45 9 44 </p>
+                    <p>14 51 15 50 11 49 10 48 </p>
+                    <p>15 55 12 54 8 53 11 52 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID43990848-mesh" name="ID43990848">
+            <mesh>
+                <source id="ID43990848-mesh-verts" name="verts">
+                    <float_array id="ID43990848-mesh-verts-array" count="24">-0.500000 -0.500000 0.500000 -0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 -0.500000 -0.500000 -0.500000 -0.500000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID43990848-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43990848-mesh-normal" name="normal">
+                    <float_array id="ID43990848-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID43990848-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID43990848-mesh-uv1" name="uv1">
+                    <float_array id="ID43990848-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID43990848-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID43990848-mesh-vertices">
+                    <input semantic="POSITION" source="#ID43990848-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID43990848-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID43990848-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID43990848-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID131084368-mesh" name="ID131084368">
+            <mesh>
+                <source id="ID131084368-mesh-verts" name="verts">
+                    <float_array id="ID131084368-mesh-verts-array" count="48">-0.500000 -0.500000 0.500000 -0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 -0.500000 -0.500000 -0.500000 -0.500000 -0.400000 -0.400000 0.500000 -0.400000 0.400000 0.500000 0.400000 0.400000 0.500000 0.400000 -0.400000 0.500000 0.400000 -0.400000 -0.500000 0.400000 0.400000 -0.500000 -0.400000 0.400000 -0.500000 -0.400000 -0.400000 -0.500000 </float_array>
+                    <technique_common>
+                        <accessor count="16" offset="0" source="#ID131084368-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID131084368-mesh-normal" name="normal">
+                    <float_array id="ID131084368-mesh-normal-array" count="144">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="48" offset="0" source="#ID131084368-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID131084368-mesh-uv1" name="uv1">
+                    <float_array id="ID131084368-mesh-uv1-array" count="96">0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="48" offset="0" source="#ID131084368-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID131084368-mesh-vertices">
+                    <input semantic="POSITION" source="#ID131084368-mesh-verts"/>
+                </vertices>
+                <polygons count="12" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID131084368-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID131084368-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID131084368-mesh-uv1" set="0"/>
+                    <p>11 3 8 2 0 1 3 0 </p>
+                    <p>15 7 12 6 4 5 7 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                    <p>8 27 9 26 1 25 0 24 </p>
+                    <p>9 31 10 30 2 29 1 28 </p>
+                    <p>10 35 11 34 3 33 2 32 </p>
+                    <p>12 39 13 38 5 37 4 36 </p>
+                    <p>13 43 14 42 6 41 5 40 </p>
+                    <p>14 47 15 46 7 45 6 44 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID131129840-mesh" name="ID131129840">
+            <mesh>
+                <source id="ID131129840-mesh-verts" name="verts">
+                    <float_array id="ID131129840-mesh-verts-array" count="48">-0.500000 -0.500000 0.500000 -0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 0.500000 -0.500000 -0.500000 0.500000 -0.500000 -0.500000 -0.500000 -0.500000 -0.400000 -0.400000 0.500000 -0.400000 0.400000 0.500000 0.400000 0.400000 0.500000 0.400000 -0.400000 0.500000 0.400000 -0.400000 -0.500000 0.400000 0.400000 -0.500000 -0.400000 0.400000 -0.500000 -0.400000 -0.400000 -0.500000 </float_array>
+                    <technique_common>
+                        <accessor count="16" offset="0" source="#ID131129840-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID131129840-mesh-normal" name="normal">
+                    <float_array id="ID131129840-mesh-normal-array" count="144">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="48" offset="0" source="#ID131129840-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID131129840-mesh-uv1" name="uv1">
+                    <float_array id="ID131129840-mesh-uv1-array" count="96">0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="48" offset="0" source="#ID131129840-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID131129840-mesh-vertices">
+                    <input semantic="POSITION" source="#ID131129840-mesh-verts"/>
+                </vertices>
+                <polygons count="12" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID131129840-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID131129840-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID131129840-mesh-uv1" set="0"/>
+                    <p>11 3 8 2 0 1 3 0 </p>
+                    <p>15 7 12 6 4 5 7 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                    <p>8 27 9 26 1 25 0 24 </p>
+                    <p>9 31 10 30 2 29 1 28 </p>
+                    <p>10 35 11 34 3 33 2 32 </p>
+                    <p>12 39 13 38 5 37 4 36 </p>
+                    <p>13 43 14 42 6 41 5 40 </p>
+                    <p>14 47 15 46 7 45 6 44 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="RootNode" name="RootNode">
+            <node id="ID44311696" sid="ID44311696" name="Camera">
+                <matrix sid="matrix">0.814116 -0.444844 0.373269 1.280341 0.000000 0.642788 0.766044 3.569646 -0.580703 -0.623649 0.523303 1.840125 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_camera url="#ID44311696-persp"/>
+            </node>
+            <node id="ID20760016" sid="ID20760016" name="Rocket_Launcher">
+                <matrix sid="matrix">-1.000000 0.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                <node id="ID44366704" sid="ID44366704" name="Base">
+                    <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                    <node id="ID44421712" sid="ID44421712" name="Box">
+                        <matrix sid="matrix">0.999987 0.000000 0.000000 0.000000 0.000000 0.250000 0.000000 0.125000 0.000000 0.000000 0.999987 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                        <instance_geometry url="#ID44421712-mesh">
+                            <bind_material>
+                                <technique_common>
+                                    <instance_material symbol="mat0" target="#material0"/>
+                                </technique_common>
+                            </bind_material>
+                        </instance_geometry>
+                    </node>
+                    <node id="ID43630560" sid="ID43630560" name="Box_1">
+                        <matrix sid="matrix">0.500000 0.000000 0.000000 0.000000 0.000000 0.500000 0.000000 0.500000 0.000000 0.000000 0.500000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                        <instance_geometry url="#ID43630560-mesh">
+                            <bind_material>
+                                <technique_common>
+                                    <instance_material symbol="mat0" target="#material2"/>
+                                </technique_common>
+                            </bind_material>
+                        </instance_geometry>
+                    </node>
+                    <node id="ID43693552" sid="ID43693552" name="Box_8">
+                        <matrix sid="matrix">0.187764 0.000000 0.000000 0.000000 0.000000 0.356426 0.000000 0.773685 0.000000 0.000000 0.187764 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                        <instance_geometry url="#ID43693552-mesh">
+                            <bind_material>
+                                <technique_common>
+                                    <instance_material symbol="mat0" target="#material2"/>
+                                </technique_common>
+                            </bind_material>
+                        </instance_geometry>
+                    </node>
+                    <node id="ID43739072" sid="ID43739072" name="Box_6">
+                        <matrix sid="matrix">0.152741 0.000000 0.000000 0.000000 0.000000 0.531300 0.000000 0.483178 0.000000 0.000000 0.674937 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                        <instance_geometry url="#ID43739072-mesh">
+                            <bind_material>
+                                <technique_common>
+                                    <instance_material symbol="mat0" target="#material1"/>
+                                </technique_common>
+                            </bind_material>
+                        </instance_geometry>
+                    </node>
+                    <node id="ID43784000" sid="ID43784000" name="Box_7">
+                        <matrix sid="matrix">-0.000000 -0.000000 0.674937 0.000000 0.000000 0.531299 0.000000 0.483178 -0.152741 -0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                        <instance_geometry url="#ID43784000-mesh">
+                            <bind_material>
+                                <technique_common>
+                                    <instance_material symbol="mat0" target="#material1"/>
+                                </technique_common>
+                            </bind_material>
+                        </instance_geometry>
+                    </node>
+                    <node id="ID43828928" sid="ID43828928" name="Box_2">
+                        <matrix sid="matrix">0.150000 0.000000 0.000000 0.000000 0.000000 0.500000 0.000000 1.000000 0.000000 0.000000 0.150000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                        <instance_geometry url="#ID43828928-mesh">
+                            <bind_material>
+                                <technique_common>
+                                    <instance_material symbol="mat0" target="#material0"/>
+                                </technique_common>
+                            </bind_material>
+                        </instance_geometry>
+                    </node>
+                </node>
+                <node id="ID43874384" sid="ID43874384" name="Turret">
+                    <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                    <node id="ID43899216" sid="ID43899216" name="Box_3">
+                        <matrix sid="matrix">0.400000 0.000000 0.000000 -0.300000 0.000000 0.400000 0.000000 1.250000 0.000000 0.000000 0.999998 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                        <instance_geometry url="#ID43899216-mesh">
+                            <bind_material>
+                                <technique_common>
+                                    <instance_material symbol="mat0" target="#material0"/>
+                                </technique_common>
+                            </bind_material>
+                        </instance_geometry>
+                    </node>
+                    <node id="ID43944896" sid="ID43944896" name="Box_4">
+                        <matrix sid="matrix">0.400000 0.000000 0.000000 0.300000 0.000000 0.400000 0.000000 1.250000 0.000000 0.000000 0.999998 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                        <instance_geometry url="#ID43944896-mesh">
+                            <bind_material>
+                                <technique_common>
+                                    <instance_material symbol="mat0" target="#material0"/>
+                                </technique_common>
+                            </bind_material>
+                        </instance_geometry>
+                    </node>
+                    <node id="ID43990848" sid="ID43990848" name="Box_5">
+                        <matrix sid="matrix">0.228555 0.000000 0.000000 0.000000 0.000000 0.228555 0.000000 1.250000 0.000000 0.000000 0.228555 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                        <instance_geometry url="#ID43990848-mesh">
+                            <bind_material>
+                                <technique_common>
+                                    <instance_material symbol="mat0" target="#material0"/>
+                                </technique_common>
+                            </bind_material>
+                        </instance_geometry>
+                    </node>
+                    <node id="ID131084368" sid="ID131084368" name="Box_9">
+                        <matrix sid="matrix">0.463413 0.000000 0.000000 0.300001 0.000000 0.463413 0.000000 1.250009 0.000000 0.000000 0.308618 0.355000 0.000000 0.000000 0.000000 1.000000</matrix>
+                        <instance_geometry url="#ID131084368-mesh">
+                            <bind_material>
+                                <technique_common>
+                                    <instance_material symbol="mat0" target="#material1"/>
+                                </technique_common>
+                            </bind_material>
+                        </instance_geometry>
+                    </node>
+                    <node id="ID131129840" sid="ID131129840" name="Box_11">
+                        <matrix sid="matrix">0.463413 0.000000 0.000000 -0.300000 0.000000 0.463413 0.000000 1.250009 0.000000 0.000000 0.308618 0.355000 0.000000 0.000000 0.000000 1.000000</matrix>
+                        <instance_geometry url="#ID131129840-mesh">
+                            <bind_material>
+                                <technique_common>
+                                    <instance_material symbol="mat0" target="#material1"/>
+                                </technique_common>
+                            </bind_material>
+                        </instance_geometry>
+                    </node>
+                </node>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#RootNode"/>
+    </scene>
+</COLLADA>
