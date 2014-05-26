@@ -50,6 +50,11 @@ The game has been tested on both Mac OS X and Linux. Building requires CMake in 
  
 Building the software requires that you first `cd` to the `/build/` directory and then run one of the several shell scripts provided in the `/scripts/` directory.
 
+Authors
+-------
+
+ * Omar Kermad
+
 Credits
 -------
 
