@@ -6,7 +6,7 @@ Total Resistance
 Overview
 --------
 
-Total Resistance is a MIT licensed cross-platform tower defense game written in C++11. The game formed part of my final year Computer Science project at Royal Holloway, University of London. Much of the work was focused on implementing a custom game engine library.
+Total Resistance is a MIT licensed cross-platform tower defense game written in C++11 and inspired by [Total Annihilation](http://en.wikipedia.org/wiki/Total_Annihilation). The game formed part of my final year Computer Science project at Royal Holloway, University of London. Much of the work was focused on implementing a custom game engine library.
 
 Engine Details
 --------------
