@@ -1,6 +1,8 @@
 Total Resistance
 ================
 
+![Total Resistance](http://i.imgur.com/DvX0JBh.jpg "Total Resistance")
+
 Overview
 --------
 
