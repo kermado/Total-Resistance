@@ -43,12 +43,12 @@ Building
 
 The game has been tested on both Mac OS X and Linux. Building requires CMake in order to generate platform-specific  makefiles or IDE projects. The Clang compiler has been exclusively used during development. You will need to install the following libraries before building the project:
 
- * GLFW3 (http://www.glfw.org/)
- * GLEW (http://glew.sourceforge.net/)
- * GLM (http://glm.g-truc.net/0.9.4/index.html)
- * ASSIMP (http://assimp.sourceforge.net/)
- * FreeType 2 (http://www.freetype.org/freetype2/)
- * PortAudio (http://www.portaudio.com/)
+ * [GLFW3](http://www.glfw.org/)
+ * [GLEW](http://glew.sourceforge.net/)
+ * [GLM](http://glm.g-truc.net/0.9.4/index.html)
+ * [ASSIMP](http://assimp.sourceforge.net/)
+ * [FreeType 2](http://www.freetype.org/freetype2/)
+ * [PortAudio](http://www.portaudio.com/)
  
 Building the software requires that you first `cd` to the `/build/` directory and then run one of the several shell scripts provided in the `/scripts/` directory.
 
