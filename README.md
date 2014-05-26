@@ -9,29 +9,29 @@ Total Resistance is a MIT licensed cross-platform tower defense game written in 
 Engine Details
 --------------
 
-# Computer graphics
+**Computer graphics**
 
  * Orthographic camera
  * Directional lighting
  * GLSL shader support
 
-# User interface
+**User interface**
 
  * Simple 2D shapes
  * Textures and solid fill colours
  * Text using FreeType fonts
 
-# Audio
+**Audio**
 
  * Music and sound playback
  * Clamped audio mixing
 
-# Resource management
+**Resource management**
 
  * Reference counted resource management
  * Multi-threaded resource loading using message-passing
 
-# Architecture
+**Architecture**
 
  * Component-oriented design
  * Typesafe publish-subscribe implementation
